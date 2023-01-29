@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Yasmin Hotel</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- header section stars -->
+<section class="header">
+
+  <div class="flex">
+    <a href="#home" class="logo">Yasmin Hotel</a>
+    <a href="#availability" class="btn">check availability</a>
+    <div id="menu-btn" class="fas fa-bars">
+    </div>
+  </div>
+  
+  <nav class="navbar">
+    <a href="#Home">Home</a>
+    <a href="#Aboutus">About us</a>
+    <a href="#Reservation">Reservation</a>
+    <a href="#Gallery">Gallery</a>
+    <a href="#Services">Services</a>
+    <a href="#Contact">Contact</a>
+    </nav>
+
+</section>
+
+ <!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+  <div class="swiper home-slider">
+
+     <div class="swiper-wrapper">
+
+        <div class="box swiper-slide">
+           <img src="img/palacae.jpg" alt="">
+           <div class="flex">
+              <h3>luxurious palace</h3>
+              <a href="#availability" class="btn">check availability</a>
+           </div>
+        </div>
+
+        <div class="box swiper-slide">
+           <img src="img/room.jpg" alt="">
+           <div class="flex">
+              <h3>luxurious room</h3>
+              <a href="#reservation" class="btn">make a reservation</a>
+           </div>
+        </div>
+
+        <div class="box swiper-slide">
+           <img src="img/hulahula-camp.jpg" alt="">
+           <div class="flex">
+              <h3>Fun activity</h3>
+              <a href="#contact" class="btn">contact us</a>
+           </div>
+        </div>
+
+     </div>
+
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+
+  </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+
+<!-- availability section stars -->
+
+<section class="availability" id="availability">
+  <form action=""method="post">
+  <div class="flex">
+    <div class="box">
+      <p>check in<span>*</span></p>
+      <input type="date" name="check_in" class="input" required>
+    </div>
+    <div class="box">
+      <p>check out<span>*</span></p>
+      <input type="date" name="check_out" class="input" required>
+    </div>
+    <div class="box">
+      <p>adults<span>*</span></p>
+      <select name="adults" class="input" required> 
+        <option value="1">1 adult</option>
+        <option value="2">2 adults</option>
+        <option value="3">3 adults</option>
+        <option value="4">4 adults</option>
+        <option value="5">5 adults</option>
+        <option value="6">6 adults</option>
+      </select>
+    </div>
+    <div class="box">
+      <p>childs<span>*</span></p>
+      <select name="childs" class="input" required> 
+        <option value="-">0 child</option>
+        <option value="1">1 child</option>
+        <option value="2">2 childs</option>
+        <option value="3">3 childs</option>
+        <option value="4">4 childs</option>
+        <option value="5">5 childs</option>
+        <option value="6">6 childs</option>
+      </select>
+    </div>
+    <div class="box">
+      <p>rooms<span>*</span></p>
+      <select name="rooms" class="input" required> 
+        <option value="1">1 room</option>
+        <option value="2">2 rooms</option>
+        <option value="3">3 rooms</option>
+        <option value="4">4 rooms</option>
+        <option value="5">5 rooms</option>
+        <option value="6">6 rooms</option>
+      </select>
+    </div>
+  </div>
+  <input type="submit" value="check availability" name="check" class="btn">
+</form>
+
+</section>
+
+<!-- availability section ends -->
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+<!-- about section stars -->
+
+<section class="about" id="about">
+
+ <div class="row">
+  <div class="image">
+    <img src="img/roomr2.jpg" alt="">
+  </div>
+  <div class="content">
+    <h3>Luxurious Rooms</h3>
+    <p>The best fasilities will accompany you and your family</p>
+    <a href="#reservation" class="btn">make a reservation</a>
+  </div>
+ </div>
+
+ <div class="row revers">
+  <div class="image">
+    <img src="img/villa2.jpg" alt="">
+  </div>
+  <div class="content">
+    <h3>Luxurious villa</h3>
+    <p>The best fasilities will accompany you and your family</p>
+    <a href="#availability" class="btn">what's on our hotel</a>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="image">
+    <img src="img/fasilitas2.jpg" alt="">
+  </div>
+  <div class="content">
+    <h3>Facilities</h3>
+    <p>The best fasilities will accompany you and your family</p>
+    <a href="#services" class="btn">Check our services</a>
+  </div>
+ </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+<!-- sevices section stars-->
+
+<section class="services">
+
+<div class="box-container">
+
+  <div class="box">
+    <img src="img/roomicon.png" alt="">
+  <h3>Rooms</h3>
+  <p>Luxurious rooms with modern facilitiesss</p>  
+  </div>
+
+  <div class="box">
+    <img src="img/meetingicon.png" alt="">
+  <h3>Meeting Hall</h3>
+  <p>All are supported with modern conference facilities</p>  
+  </div>
+
+  <div class="box">
+    <img src="img/icondin.png" alt="">
+  <h3>Dining</h3>
+  <p>Make yourself at your best comfy while enjoying our delicious cuisine</p>  
+  </div>
+
+  <div class="box">
+    <img src="img/iconswim.png" alt="">
+  <h3>Family Activities</h3>
+  <p>Lets do the funtastic activity with your family during the vacation</p>  
+  </div>
+
+  <div class="box">
+    <img src="img/iconkids.png" alt="">
+  <h3>Kids activities</h3>
+  <p>Keep your children have fun with creativity corner</p>  
+  </div>
+
+</div>
+
+</section>
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+<!-- services section ends -->
+
+<!-- reservation section stars -->
+
+<section class="reservation" id="reservation">
+
+  <form action=""method="post">
+    <h3>make a reservation</h3>
+    <div class="flex">
+      <div class="box">
+        <p>check in<span>*</span></p>
+        <input type="date" name="check_in" class="input" required>
+      </div>
+      <div class="box">
+        <p>check out<span>*</span></p>
+        <input type="date" name="check_out" class="input" required>
+      </div>
+      <div class="box">
+        <p>adults<span>*</span></p>
+        <select name="adults" class="input" required> 
+          <option value="1">1 adult</option>
+          <option value="2">2 adults</option>
+          <option value="3">3 adults</option>
+          <option value="4">4 adults</option>
+          <option value="5">5 adults</option>
+          <option value="6">6 adults</option>
+        </select>
+      </div>
+      <div class="box">
+        <p>childs<span>*</span></p>
+        <select name="childs" class="input" required> 
+          <option value="-">0 child</option>
+          <option value="1">1 child</option>
+          <option value="2">2 childs</option>
+          <option value="3">3 childs</option>
+          <option value="4">4 childs</option>
+          <option value="5">5 childs</option>
+          <option value="6">6 childs</option>
+        </select>
+      </div>
+      <div class="box">
+        <p>rooms<span>*</span></p>
+        <select name="rooms" class="input" required> 
+          <option value="1">1 room</option>
+          <option value="2">2 rooms</option>
+          <option value="3">3 rooms</option>
+          <option value="4">4 rooms</option>
+          <option value="5">5 rooms</option>
+          <option value="6">6 rooms</option>
+        </select>
+      </div>
+    </div>
+    <input type="submit" value="check availability" name="check" class="btn">
+  </form>
+
+</section>
+
+<!-- reservation section ends -->
+
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+<!-- gallery section stars -->
+
+<section class="gallery" id="gallery">
+
+  <div class="swiper gallery-slider">
+    <div class="swiper-wrapper">
+    <img src="img/room.jpg" class="swiper-slide" alt="">
+    <img src="img/roomr2.jpg" class="swiper-slide" alt="">
+    <img src="img/villa1.jpg" class="swiper-slide" alt="">
+    <img src="img/villa2.jpg" class="swiper-slide" alt="">
+    <img src="img/servicesMeetingRoom.jpg" class="swiper-slide" alt="">
+    <img src="img/ServicesDining.jpg" class="swiper-slide" alt=""> 
+    <img src="img/ServicesDining2.jpg" class="swiper-slide" alt="">
+    <img src="img/kids.jpg" class="swiper-slide" alt="">
+    <img src="img/facilitas.jpg" class="swiper-slide" alt="">  
+    <img src="img/fasilitas2.jpg" class="swiper-slide" alt=""> 
+  </div>
+  <div class="swiper-pagination"></div>
+  </div>
+
+</section>
+<!-- gallery section ends -->
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+  <div class="row">
+
+     <form action="" method="post">
+        <h3>send us message</h3>
+        <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+        <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+        <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+        <textarea name="message" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" name="send" class="btn">
+        <div class="spacer"></div>
+      </form>
+
+     <div class="faq">
+        <h3 class="title">frequently asked questions</h3>
+        <div class="box active">
+           <h3>how to cancel?</h3>
+           <p>If you want to cancel the reservation, you can contact us via email or our contact mentioned belows</p>
+        </div>
+        <div class="box">
+           <h3>is there any vacancy?</h3>
+           <p>Currently we dont have any job vacancies</p>
+        </div>
+        <div class="box">
+           <h3>what are payment methods?</h3>
+           <p>There are many common payment options for hotels; credit card, debit card, cash or mobile payment</p>
+        </div>
+     </div>
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!--- spacer -->
+<div class="spacer"></div>
+
+
+<!-- footer section stars -->
+<section class="footer">
+  <div class="box-container">
+  <div class="box">
+    <a href="tel:1234567890"><i class= "fas fa-phone"></i>+123-456-7890</a>
+    <a href="tel:1112223333"><i class= "fas fa-phone"></i>+111-222-333</a>
+    <a href="mailto:auratifa14@gmail.com"><i class= "fas fa-envelope"></i>auratifa14@gmail.com</a>
+    <a href="#"><i class= "fas fa-map-marker-alt"></i>Puncak, Jawa Barat </a>
+  </div>
+
+  <div class="box">
+    <a href="#Home">Home</a>
+    <a href="#Aboutus">About us</a>
+    <a href="#Reservation">Reservation</a>
+    <a href="#Gallery">Gallery</a>
+    <a href="#Services">Services</a>
+    <a href="#Contact">Contact</a>
+  </div>
+
+  <div class="box">
+    <a href="#">facebook <i class="fab fa-facebook-f"></i></a>
+    <a href="#">twitter <i class="fab fa-twitter"></i></a>
+    <a href="#">instagram <i class="fab fa-instagram"></i></a>
+    <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
+    <a href="#">youtube <i class="fab fa-youtube"></i></a>
+  </div>
+
+</div>
+
+   <div class="credit">&copy; copyright @ 2023 by aura tf aprl | all right reserved </div>
+</section>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
